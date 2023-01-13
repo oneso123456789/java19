@@ -5,7 +5,7 @@ public class beat {
 
     public static int convert(long n) {
         if (n <= 5) {
-            return (int) "11011".substring(0, (int) n).replaceAll("0", "").length();
+            return "11011".substring(0, (int) n).replaceAll("0", "").length();
         }
 
         long base = 1;

@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.stream.Stream;
 
-class Solution {
+class procession {
     public static int solution(int storey) {
         int answer = 0;
         int[] aa = convertIntToArray(storey);
